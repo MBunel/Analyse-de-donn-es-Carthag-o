@@ -2,6 +2,7 @@
 
 pkgs.mkShell {
   buildInputs = [
+     pkgs.R
      pythonPackages.numpy
      pythonPackages.scipy
      pythonPackages.jupyterlab
