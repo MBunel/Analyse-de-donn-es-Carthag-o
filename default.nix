@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> { }, pythonPackages ? pkgs.python3Packages, rPackages ?  kgs.rPackages}:
+{ pkgs ? import <nixpkgs> { }, pythonPackages ? pkgs.python3Packages, rPackages ?  pkgs.rPackages}:
 
 pkgs.mkShell {
   buildInputs = [
