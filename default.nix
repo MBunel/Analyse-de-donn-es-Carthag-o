@@ -5,7 +5,7 @@ pkgs.mkShell {
      pythonPackages.numpy
      pythonPackages.scipy
      pythonPackages.jupyterlab
-     rPackages.irkernel
+     rPackages.IRkernel
      rPackages.ggplot2
   ];
 
